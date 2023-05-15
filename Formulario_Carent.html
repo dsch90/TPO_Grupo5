@@ -3,27 +3,33 @@
 	<head>
 		<meta charset="UTF-8">
 		<title> Contacto </title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/navbar.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 		<script type="text/javascript"> emailjs.init('gZcujskNsR16Bzt8a')</script>
+		<script type="module" src="js/responsive.js"></script>
+		<script src="js/navbar.js"></script>
 	</head>
 	<body>
+
+		<!-- Barra de navegacion -->
+		<my-navbar></my-navbar>
+
 		<div class="content">
-			<h1 class="form_titulo">Contactanos - <span>CaRent</span> </h1>
+			<h1 class="form_titulo">Contactanos </h1>
 			<div class="contact-wrapper animated bounceInUp">
 				<div class="contact-form">
-                	<h3>Contactanos</h3>
 					<form action="https://formsubmit.co/chamorrodebora016@gmail.com" method="POST" id= "form" class="form">
-						<p>
+						<p class="form-p">
 							<input type="text" id="nombre" class="form_input" name="name">
 							<label for="" class="form_label">Nombre</label>
 						</p>
-						<p>
+						<p class="form-p">
 							<input type="email" id="email" class="form_input" name="email">
 							<label for="" class="form_label">Email</label>
 						</p>
-						<p>
+						<p class="form-p">
 							<input type="text" id="telefono" class="form_input" name="phone">
 							<label for="" class="form_label">Telefono</label>
 						</p>
@@ -34,13 +40,13 @@
 						<p class="block">
 							<button type="submit" id="button" class="form_enviar" value="ENVIAR MENSAJE">Enviar</button>
 						</p>
-						<p class="warnings" id="warnings"></p>
+						<p class="warnings" id="warning"></p>
 					
 					</form>
 				</div>
 				<div class="contact-info">
                 <h4>Mas info</h4>
-                <ul>
+                <ul class="form-info">
                     <li><i class="fas fa-map-marker-alt"></i> Nombre de calle</li>
                     <li><i class="fas fa-phone"></i> (111) 111 111 111</li>
                     <li><i class="fas fa-envelope-open-text"></i> carent@gmail.com</li>
@@ -51,10 +57,8 @@
 			</div>
 		</div>
 		
+		<script src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/form.js"></script>
-		
 	</body>
 	
-
 </html>
-
