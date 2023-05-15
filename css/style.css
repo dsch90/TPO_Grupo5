@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	background: url(foto_formulario.jpg) no-repeat center center fixed;
+	background: url(/images/foto_formulario.jpg) no-repeat center center fixed;
     color: #fff;
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
@@ -64,9 +64,9 @@ body {
     outline: 0;
 }
 
-.contact-wrapper {
-    /*box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);*/
-}
+/*.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}*/
 
 .contact-wrapper > * {
     padding: 1em;
