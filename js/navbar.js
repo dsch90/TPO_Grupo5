@@ -2,30 +2,28 @@
 class navBar extends HTMLElement{
     connectedCallback() {
       this.innerHTML =`
-      <div class="nav">
-          <div class="navbar">
-            <div class="navbar__wrapper">
-              <nav class="navbar__menu">
-                    <a href="index.html" class="brand">
-                      <img src="images/coche.png" alt="logo" width="40" height="35" class="d-inline-block align-text-top"> CaRent 
-                    </a>
-                <div id="nav-icon3"><span></span><span></span><span></span><span></span></div>
-                <ul class="navbar__nav">
-                  <li class="navbar__link after-transform"><a class="menu_link" href="#">Vehiculos</a></li>
-                  <li class="navbar__link after-transform"><a class="menu_link" href="/formulario_Carent.html">Contacto</a></li>
-                  <li class="navbar__link after-transform"><a class="menu_link" href="#">Acerca de Nosotros</a></li>
-                </ul>
-              </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+              <img src="images/coche.png" alt="logo" width="40" height="35" class="d-inline-block align-text-top"> CaRent</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Vehiculos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Acerca de nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/formulario_Carent.html">Contacto</a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="navbar-responsive">
-            <ul class="navbar-responsive__nav">
-              <li class="navbar-responsive__link after-transform"><a href="#">Vehiculos</a></li>
-              <li class="navbar-responsive__link after-transform"><a href="/formulario_Carent.html">Contacto</a></li>
-              <li class="navbar-responsive__link after-transform"><a href="#">Acerca de nosotros</a></li>
-            </ul>
-          </div>
-        </div>
+        </nav>
       ` 
     }
   }

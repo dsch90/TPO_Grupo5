@@ -14,10 +14,25 @@ html {
 body {
 	font-size: 1rem;
 	font-weight: 400;
+  font-family: 'Amethysta';
 	line-height: 1.5;
 	height: -webkit-fill-available;
-    background-image: url(/images/fondo.jpg);
-    background-size: cover;
+  background-image: url(/images/fondo.jpg);
+  background-size: cover;
+}
+
+/* bienvenida */
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  text-align: center;
+  background:rgba(255, 255, 255, 0.418);
+}
+
+.principal-titulo {
+  text-align: center;
 }
 
 
@@ -29,7 +44,6 @@ body {
   margin: 0 auto;
   font-family: var(--font-sans);
 }
-
 
 .card {
     position: relative;
@@ -154,3 +168,4 @@ body {
     transition-duration: 0s;
   }
 }
+
