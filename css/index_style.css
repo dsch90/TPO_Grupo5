@@ -34,6 +34,12 @@ body {
 
 .principal-titulo {
   text-align: center;
+  letter-spacing: -1px;
+    text-shadow: 0 0 10px #fff8;
+    color: #1b1818;
+    margin: 0 0 0.5rem;
+    font-size: clamp(44px,5vw,64px);
+    font-weight: 700;
 }
 
 
@@ -173,4 +179,24 @@ body {
 .card:focus-within .content > *:not(.titulo) {
     transition-duration: 0s;
   }
+}
+
+/* Preguntas frecuentes */
+
+.accordion {
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: whitesmoke !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: none !important;
+}
+
+.accordion-button:focus {
+  border-color: whitesmoke !important;
+  box-shadow: none !important;
 }
