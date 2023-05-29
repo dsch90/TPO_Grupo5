@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-  font-family: Adamina;
 }
 
 html {
@@ -205,6 +204,7 @@ body {
 
 /* Pestaña desarrolladoras */
 .dev{
+  font-family: Adamina;
   padding: 3em 0 0;
   margin: 0px 50px;
 }
