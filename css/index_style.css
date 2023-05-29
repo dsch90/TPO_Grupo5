@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+  font-family: Adamina;
 }
 
 html {
@@ -35,11 +36,11 @@ body {
 .principal-titulo {
   text-align: center;
   letter-spacing: -1px;
-    text-shadow: 0 0 10px #fff8;
-    color: #1b1818;
-    margin: 0 0 0.5rem;
-    font-size: clamp(44px,5vw,64px);
-    font-weight: 700;
+  text-shadow: 0 0 10px #fff8;
+  color: #1b1818;
+  margin: 0 0 0.5rem;
+  font-size: clamp(44px,5vw,64px);
+  font-weight: 700;
 }
 
 
@@ -199,4 +200,34 @@ body {
 .accordion-button:focus {
   border-color: whitesmoke !important;
   box-shadow: none !important;
+}
+
+
+/* Pestaña desarrolladoras */
+.dev{
+  padding: 3em 0 0;
+  margin: 0px 50px;
+}
+
+.dev-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dev-foto {
+  width: 445px;
+  height: 630px;
+}
+
+.dev-contacto {
+  background: rgba(255, 255, 255, 0.418);
+  border: whitesmoke;
+  border-style: ridge;
+}
+
+.enlaces-info {
+  text-decoration: none;
+  color: #1b1818;
+  font-weight: bold;
 }
