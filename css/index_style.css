@@ -13,8 +13,6 @@ html {
 
 body {
 	font-size: 1rem;
-	font-weight: 400;
-  font-family: 'Amethysta';
 	line-height: 1.5;
 	height: -webkit-fill-available;
   background-image: url(/images/fondo.jpg);
@@ -30,10 +28,17 @@ body {
   margin: 100px;
   text-align: center;
   background:rgba(255, 255, 255, 0.418);
+  font-family: 'Amethysta';
 }
 
 .principal-titulo {
   text-align: center;
+  letter-spacing: -1px;
+  text-shadow: 0 0 10px #fff8;
+  color: #1b1818;
+  margin: 0 0 0.5rem;
+  font-size: clamp(44px,5vw,64px);
+  font-weight: 700;
 }
 
 
@@ -43,7 +48,7 @@ body {
   padding: 1rem;
   max-width: 1024px;
   margin: 0 auto;
-  font-family: var(--font-sans);
+  font-family: 'Amethysta';
 }
 
 .titulo-page-content {
@@ -173,4 +178,56 @@ body {
 .card:focus-within .content > *:not(.titulo) {
     transition-duration: 0s;
   }
+}
+
+/* Preguntas frecuentes */
+
+.accordion {
+  max-width: 1000px;
+  margin: 100px auto;
+  font-family: 'Amethysta';
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: whitesmoke !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: none !important;
+}
+
+.accordion-button:focus {
+  border-color: whitesmoke !important;
+  box-shadow: none !important;
+}
+
+
+/* Pestaña desarrolladoras */
+.dev{
+  font-family: Adamina;
+  padding: 3em 0 0;
+  margin: 0px 50px;
+}
+
+.dev-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dev-foto {
+  width: 445px;
+  height: 630px;
+}
+
+.dev-contacto {
+  background: rgba(255, 255, 255, 0.418);
+  border: whitesmoke;
+  border-style: ridge;
+}
+
+.enlaces-info {
+  text-decoration: none;
+  color: #1b1818;
+  font-weight: bold;
 }
