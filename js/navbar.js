@@ -15,7 +15,7 @@ class navBar extends HTMLElement{
                   <a class="nav-link active" aria-current="page" href="#">Vehiculos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Acerca de nosotros</a>
+                  <a class="nav-link" href="/nosotros.html">Acerca de nosotros</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/formulario_Carent.html">Contacto</a>
