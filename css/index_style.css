@@ -13,8 +13,6 @@ html {
 
 body {
 	font-size: 1rem;
-	font-weight: 400;
-  font-family: 'Amethysta';
 	line-height: 1.5;
 	height: -webkit-fill-available;
   background-image: url(/images/fondo.jpg);
@@ -30,6 +28,7 @@ body {
   margin: 100px;
   text-align: center;
   background:rgba(255, 255, 255, 0.418);
+  font-family: 'Amethysta';
 }
 
 .principal-titulo {
@@ -49,7 +48,7 @@ body {
   padding: 1rem;
   max-width: 1024px;
   margin: 0 auto;
-  font-family: var(--font-sans);
+  font-family: 'Amethysta';
 }
 
 .titulo-page-content {
@@ -186,6 +185,7 @@ body {
 .accordion {
   max-width: 1000px;
   margin: 100px auto;
+  font-family: 'Amethysta';
 }
 
 .accordion-button:not(.collapsed) {
