@@ -1,3 +1,37 @@
+.historia{
+    background:white;
+    border-radius: 15px;
+}
+
+.subtitulo_nosotros {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    text-align: center;
+    font-family: 'Amethysta';
+}
+.subti-titulo {
+    text-align: center;
+    letter-spacing: -1px;
+    text-shadow: 0 0 10px #fff8;
+    color: #1b1818;
+    margin: 0 0 0.5rem;
+    font-size: clamp(44px,5vw,64px);
+    font-weight: 700;
+  }
+
+
+.historia {
+    padding: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Amethysta';
+  }
+.titulo-texto-historia{
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-weight: 600;
+    margin: 20px;
+}
 .comentarios{
     overflow: auto;
     width: auto;
